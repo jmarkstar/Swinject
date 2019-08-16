@@ -11,5 +11,5 @@ let package = Package(
     targets: [
         .target(name: "Swinject", dependencies: [], path: "Sources"),
     ],
-    swiftLanguageVersions: [4, 5]
+    swiftLanguageVersions: [.v4, .v5]
 )
